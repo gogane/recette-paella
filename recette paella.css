@@ -1,0 +1,141 @@
+* {overflow: auto;}
+
+body {
+    background-color : #8B1ABB;
+    font-family: Arial;
+    margin: 10%;
+}
+
+div.categorie {
+    margin-bottom: 60px;
+    margin-top: -60px;
+}
+
+p.categorie {  
+    background-color : black;
+    color :whitesmoke;
+    display:inline-block;
+    padding: 8px 18px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+div.contenu {
+    box-shadow: 0px 0px 8px 8px #0000009c;
+    background-color : white;
+    margin: 60px 10px 80px 10px;
+    padding: 10px 30px 30px 30px;
+    min-width: 300px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 1px;
+}
+p.description {
+    text-align: center;
+    font-size: small;
+}
+.centre {
+    text-align: center;
+    width: 100%;
+}
+
+
+div.separateur {
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.info {
+    position: relative;
+}
+table.info {
+    position: absolute; 
+    bottom: 0px;
+    width:  100%;
+    background-color: #6C829C9C;
+    color: white;
+    height: 80px
+}
+table.info td {
+    text-align: center;
+    font-size: 10 px;
+    vertical-align: top;
+}
+table.info th {
+    text-align: center; 
+    font-size: 10px;
+    vertical-align: bottom;
+}
+img.info {
+    display: block;
+    max-height: 400px;
+    min-height: 200px;
+    object-fit: cover;
+     background-color: aqua9c;
+}
+
+div.colonne {
+    width: 45%;
+    margin-top: 20px;
+}
+
+div.colonne h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 3px solid #6c8992;
+}
+
+div.colonne1 {
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+div.ingredients p{
+    border: 1px solid lightgray;
+    font-size: 14px;
+    text-align: center;
+    padding: 2%;    
+}
+
+div.colonne2 {   
+    float: right;
+}
+
+table.preparation td {   
+    margin: 0px;
+    vertical-align: top;
+}
+
+table.preparation p.numero {
+    color: white;
+    background-color: #6c829d;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+
+table.preparation td.actions {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+}
+
+table.preparation tr {
+    min-height: 40px;
+}
+overflowauto {overflow: scroll;}
